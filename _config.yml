@@ -1,0 +1,13 @@
+# Site settings
+title: James Paolantonio
+email: me@jpaol.co
+description: > #
+  I'm James, a software engineer in New York. I plan on writing about
+  software, conferences, and whatever comes into my head.
+baseurl: ""
+url: "http://jpaol.co"
+twitter_username: jPaolantonio
+github_username:  jPaolantonio
+
+# Build settings
+markdown: kramdown
