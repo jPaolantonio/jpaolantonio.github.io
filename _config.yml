@@ -1,13 +1,31 @@
-# Site settings
-title: James Paolantonio
-email: me@jpaol.co
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: jPaol.co
+
 description: > #
   I'm James, a software engineer in New York. I plan on writing about
   software, conferences, and whatever comes into my head.
-baseurl: ""
-url: "http://jpaol.co"
-twitter_username: jPaolantonio
-github_username:  jPaolantonio
+author:
+  name: James Paolantonio
+  github: jPaolantonio
+  twitter: jPaolantonio
+  linkedin: jamespaolantonio
+  bio: Objective-C, Swift, etc.
+  email_md5: 726917c7207a908d9ed3221ceb509459
 
-# Build settings
-markdown: kramdown
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
