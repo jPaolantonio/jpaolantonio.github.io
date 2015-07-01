@@ -40,9 +40,25 @@ a.nav-link i{
 }
 a.nav-link:hover { color: #777 }
 
+#name {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: Bold;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
 #bio {
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 11px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#links {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
@@ -70,7 +86,7 @@ article .share .twitter:hover {
 	color: #CC2127;
 }
 #contact-list li:hover .fa-rss {
-	color: #e74c3c;
+	color: #1B998B;
 }
 article .share .facebook:hover {
 	color: #43609C;
@@ -83,7 +99,6 @@ article .share .gplus:hover {
 
 .page-header {
 	color: #534D56;
-	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 article{
@@ -130,7 +145,7 @@ article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #1B998B;
 }
 
 .author .author-image {
