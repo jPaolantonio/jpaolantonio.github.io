@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Tags
-header: Posts By Tag
-group: navigation
 ---
+
+Here is a list of my sites tags:
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
-
 
 <div class="col-sm-3 col-xs-6">
     <ul class="nav nav-tabs-vertical">
@@ -15,12 +14,13 @@ group: navigation
       {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
       <li>
           <a href="#{{ this_word | replace:' ','-' }}-ref" data-toggle="tab">
-            {{ this_word }}<span class="badge pull-right">{{ site.tags[this_word].size }}</span>
-         </a>
+            {{ this_word }}<span class="badge pull-right"></span>
+         </a> - {{ site.tags[this_word].size }}
       </li>
    {% endunless %}{% endfor %}
    </ul>
 </div>
+
 <!-- Tab panes -->
 <div class="tab-content col-sm-9 col-xs-6">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}

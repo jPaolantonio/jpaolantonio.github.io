@@ -3,6 +3,7 @@ layout: post
 title:  "Let's Try This"
 date:   2015-08-09 19:44:40
 categories: general
+tags: welcome
 ---
 Hey, I'm James Paolantonio. Currently, an iOS and mobile developer in New York.
 I am going to try to put down some thoughts on technology, code, and the

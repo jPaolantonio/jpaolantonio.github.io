@@ -1,31 +1,26 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: pygments
-markdown: kramdown
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: jPaol.co
+# Setup
+title:            James Paolantonio
+tagline:          'Completely random thoughts'
+description:      'Completely random thoughts of <a href="https://twitter.com/jPaolantonio">@jPaolantonio</a>.'
+url:              http://jpaol.co
+baseurl:          /
 
-description: > #
-  I'm James, a software engineer in New York. I plan on writing about
-  software, conferences, and whatever comes into my head.
 author:
-  name: James Paolantonio
-  github: jPaolantonio
-  twitter: jPaolantonio
-  linkedin: jamespaolantonio
-  bio: Objective-C, Swift, etc.
-  email_md5: 726917c7207a908d9ed3221ceb509459
+  name:           'James Paolantonio'
+  url:            https://twitter.com/jPaolantonio
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+paginate:         5
 
-BASE_PATH:
+# Custom vars
+version:          2.1.0
+
+github:           https://github.com/jPaolantonio
+linkedin:         https://www.linkedin.com/in/jamespaolantonio
